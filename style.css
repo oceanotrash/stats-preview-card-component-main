@@ -104,7 +104,7 @@ p {
 }
 
 .text-box {
-  padding: 10%;
+  padding: 10% 15% 10% 10%;
 }
 
 .title,
@@ -174,10 +174,12 @@ span {
   {
     flex-direction: column;
     justify-content: space-between;
+    
   }
 
   .stat-box .number{
     font-size: 30px;
+    font-weight: bolder;
   }
 
   .stat-box .num-sub
