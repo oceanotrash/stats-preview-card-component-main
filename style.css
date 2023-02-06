@@ -86,8 +86,15 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
 }
 
+.img-box
+{
+  background-color: var(--Softviolet);
+}
+/* 
 .img-box {
   position: relative;
 }
@@ -101,7 +108,7 @@ p {
   top: 0;
   background-color: var(--Softviolet);
   opacity: 0.5;
-}
+} */
 
 .text-box {
   padding: 10% 15% 10% 10%;
